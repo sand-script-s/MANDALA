@@ -1,0 +1,327 @@
+:root {
+    --scrollpage: #eff0e2f1;
+    --mrgrey: #8a8a8a;
+    --mrshadeofgrey: #929090;
+    --copyrye: #979797;
+    --twilight: #0c56ac;
+    --pastelblue: #8286b8;
+    --pastelhue: #0044aa;
+    --pink-lipstick: #c03b6e;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-height: 100lvh;
+}
+
+.fullspan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    height: 100vh;
+    height: 100lvh;
+    width: 100%;
+}
+
+.background-container {
+    position: fixed;
+    height: 100vh;
+    height: 100lvh;
+    width: 100%;
+}
+
+.foreground-grid {
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    width: 100%;
+    height: 100%;
+}
+
+.foreground-center-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.paper-scroll {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    container-type: inline-size;
+
+    background-color: var(--scrollpage);
+    backdrop-filter: blur(3px);
+
+    width: 100%;
+
+}
+
+.header-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.7rem;
+    font-weight: 600;
+    text-align: center;
+
+    padding-bottom: 0.25rem;
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.article-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+
+    padding-bottom: 1.35rem;
+    padding-top: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    color: var(--mrgrey);
+}
+
+.underline-outercontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.underline-style {
+    border-top-width: 0.21rem;
+    border-top-style: solid;
+}
+
+.content-block {
+    display: block;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.88rem;
+    font-weight: 400;
+    text-align: left;
+
+    padding-left: 2cqw;
+    padding-right: 2cqw;
+
+    overflow-wrap: break-word;
+}
+
+.copyright-box {
+    margin-top: auto; /* pushes footer to bottom if content is short */
+}
+
+.copyright-inner {
+    margin: 0 5%; /* extra 10% margin on both sides within footer */
+}
+
+.copyright-line {
+    height: 1px;
+    background: var(--copyrye);
+}
+
+.copyright-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding-bottom: 0.6rem;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--copyrye);
+}
+
+.ytvids {
+    display: inline;
+}
+
+.vidprev {
+    display: inline-block;
+    width: 70%;
+}
+
+.pages-links-box {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    display:block;
+    text-align: right;
+
+    margin-right: 2.2rem;
+    margin-bottom: 1.35rem;
+    
+}
+
+.pages-linklings {
+    letter-spacing: 0.07rem;
+}
+
+.active-page {
+    font-weight: 600;
+}
+
+.stopper {
+    color: var(--mrgrey);
+}
+
+/* These are for the article page links at the top and bottom of the page.*/
+.plink {
+    text-decoration: none;
+    color: var(--pastelhue);
+}
+
+.annotation {
+    font-size: 0.75rem;
+}
+
+/* These are for links in the content of the article. Where it would default to dark-blue & underlined text otherwise.*/
+.clink {
+    text-decoration: none;
+    color: var(--twilight);
+}
+
+.modestwidth-full {
+    width: 70%;
+}
+
+.modestwidth-threequarters {
+    width: 55%;
+}
+
+.modestwidth-twothirds {
+    width: 46%;
+}
+
+.modestwidth-halfer {
+    width: 33%;
+}
+
+.immodestwidth-forty {
+    width: 40%;
+}
+
+.in-progress{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    
+    padding-top: 0.57rem;
+    padding-bottom: 0.62rem;
+
+    color: var(--pastelblue);
+}
+
+.secret-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 0.31rem;
+
+}
+
+.secret-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+
+    color: var(--mrshadeofgrey);
+    cursor: default;
+    display: inline-block;
+}
+
+.secret-link a{
+    text-decoration: none;
+    color: var(--pink-lipstick);
+}
+
+.secret-link:hover {
+  cursor: pointer;
+}
+
+
+/* ------------------------- Media Queries ------------------------- */
+
+/* Tablet */
+@media (max-width: 880px) {
+
+    .foreground-grid {
+        grid-template-columns: auto 80% auto;
+    }
+
+    .vidprev {
+        width: 80%;
+    }
+
+    .modestwidth-full {
+        width: 80%;
+    }
+
+    .modestwidth-threequarters {
+        width: 60%;
+    }
+
+    .modestwidth-twothirds {
+        width: 53%;
+    }
+
+    .modestwidth-halfer {
+        width: 38%;
+    }
+
+    .immodestwidth-forty {
+        width: 50%;
+    }
+
+}
+
+/* Phone */
+@media (max-width: 600px) {
+
+    .foreground-grid {
+        grid-template-columns: auto 100% auto;
+    }
+
+    .vidprev {
+        width: 100%;
+    }
+
+    .modestwidth-full {
+        width: 100%;
+    }
+
+    .modestwidth-threequarters {
+        width: 75%;
+    }
+
+    .modestwidth-twothirds {
+        width: 66%;
+    }
+
+    .modestwidth-halfer {
+        width: 45%;
+    }
+
+    .immodestwidth-forty {
+        width: 60%;
+    }
+
+}

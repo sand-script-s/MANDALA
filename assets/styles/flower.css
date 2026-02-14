@@ -1,0 +1,22 @@
+:root {
+    --text-firegolden: rgb(173, 78, 14);
+}
+
+#flower-background {
+    min-height: 100vh;
+    min-height: 100lvh;
+    background-image: url(../images/article_solar_flower/background_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.article-header {
+    color: var(--text-firegolden);
+}
+
+.underline-main {
+    border-top-color: var(--text-firegolden);
+    width: 90%;
+}
+
