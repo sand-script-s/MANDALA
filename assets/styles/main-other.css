@@ -109,8 +109,7 @@ body {
 @media (max-width: 1200px) {
 
     .vidprev {
-        display: inline-block;
-        width: 70%;
+        width: 60%;
     }
 
     .fromthetop {
@@ -122,8 +121,7 @@ body {
 @media (max-width: 1000px) {
 
     .vidprev {
-        display: inline-block;
-        width: 85%;
+        width: 65%;
     }
 
     .fromthetop {
@@ -140,12 +138,20 @@ body {
     }
 
     .vidprev {
-        display: inline-block;
-        width: 100%;
+        width: 70%;
     }
 
     .fromthetop {
         width: 88%;
+    }
+
+}
+
+/* Phone */
+@media (max-width: 600px) {
+
+    .vidprev {
+        width: 100%;
     }
 
 }
