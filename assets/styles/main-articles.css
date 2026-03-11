@@ -180,6 +180,10 @@ body {
     color: var(--mrgrey);
 }
 
+.bottomspacer {
+    padding-bottom: 1.35rem;
+}
+
 /* These are for the article page links at the top and bottom of the page.*/
 .plink {
     text-decoration: none;
