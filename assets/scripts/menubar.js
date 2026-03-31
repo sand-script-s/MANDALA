@@ -97,6 +97,6 @@ $(document).ready(function(){
     openSubMenu('solar-flower-page-2', 0);
     openSubMenu('solar-flower-page-3', 0);
     openSubMenu('firm-rock-page-1', 0);
-    openSubMenu('firm-rock-page-2', 0);
+    openSubMenu('hot-honey-page-1', 0);
 
 })

@@ -1,0 +1,21 @@
+:root {
+    --text-spring: rgb(45, 153, 12);
+}
+
+#honey-background {
+    min-height: 100vh;
+    min-height: 100lvh;
+    background-image: url(../images/article_hot_honey/background_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.article-header {
+    color: var(--text-spring);
+}
+
+.underline-main {
+    border-top-color: var(--text-spring);
+    width: 31%;
+}
