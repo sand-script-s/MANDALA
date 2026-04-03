@@ -152,7 +152,6 @@ body {
 
 .vidprev {
     display: inline-block;
-    width: 70%;
 }
 
 .pages-links-box {
@@ -198,26 +197,6 @@ body {
 .clink {
     text-decoration: none;
     color: var(--twilight);
-}
-
-.modestwidth-full {
-    width: 70%;
-}
-
-.modestwidth-threequarters {
-    width: 55%;
-}
-
-.modestwidth-twothirds {
-    width: 46%;
-}
-
-.modestwidth-halfer {
-    width: 33%;
-}
-
-.immodestwidth-forty {
-    width: 40%;
 }
 
 .in-progress{
@@ -281,35 +260,12 @@ body {
 
 /* ------------------------- Media Queries ------------------------- */
 
+
 /* Tablet */
 @media (max-width: 880px) {
 
     .foreground-grid {
         grid-template-columns: auto 80% auto;
-    }
-
-    .vidprev {
-        width: 80%;
-    }
-
-    .modestwidth-full {
-        width: 80%;
-    }
-
-    .modestwidth-threequarters {
-        width: 60%;
-    }
-
-    .modestwidth-twothirds {
-        width: 53%;
-    }
-
-    .modestwidth-halfer {
-        width: 38%;
-    }
-
-    .immodestwidth-forty {
-        width: 50%;
     }
 
 }
@@ -320,29 +276,5 @@ body {
     .foreground-grid {
         grid-template-columns: auto 100% auto;
     }
-
-    .vidprev {
-        width: 100%;
-    }
-
-    .modestwidth-full {
-        width: 100%;
-    }
-
-    .modestwidth-threequarters {
-        width: 75%;
-    }
-
-    .modestwidth-twothirds {
-        width: 66%;
-    }
-
-    .modestwidth-halfer {
-        width: 45%;
-    }
-
-    .immodestwidth-forty {
-        width: 60%;
-    }
-
+    
 }

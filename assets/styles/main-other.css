@@ -73,13 +73,18 @@ body {
 
 .vidprev {
     display: inline-block;
-    width: 50%;
 }
 
 .buttoncentre {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.buttonleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 
 .colorlink a {
@@ -103,14 +108,17 @@ body {
     font-weight: 600;
 }
 
+.support-headings {
+    font-style: oblique;
+    font-weight: 600;
+    padding-bottom: 0.6rem;
+}
+
 
 /* ------------------------- Media Queries ------------------------- */
 
-@media (max-width: 1200px) {
 
-    .vidprev {
-        width: 60%;
-    }
+@media (max-width: 1200px) {
 
     .fromthetop {
         width: 63%;
@@ -118,17 +126,15 @@ body {
 
 }
 
-@media (max-width: 1000px) {
 
-    .vidprev {
-        width: 65%;
-    }
+@media (max-width: 1000px) {
 
     .fromthetop {
         width: 80%;
     }
 
 }
+
 
 /* Tablet */
 @media (max-width: 880px) {
@@ -137,21 +143,8 @@ body {
         padding: 1rem;
     }
 
-    .vidprev {
-        width: 70%;
-    }
-
     .fromthetop {
         width: 88%;
-    }
-
-}
-
-/* Phone */
-@media (max-width: 600px) {
-
-    .vidprev {
-        width: 100%;
     }
 
 }

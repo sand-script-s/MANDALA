@@ -1,0 +1,64 @@
+.vidprev {
+    width: 50%;
+}
+
+.patreon-img {
+    width: 45%;
+}
+
+
+/* ------------------------- Media Queries ------------------------- */
+
+
+@media (max-width: 1200px) {
+
+    .vidprev {
+        width: 60%;
+    }
+
+    .patreon-img {
+        width: 50%;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+
+    .vidprev {
+        width: 65%;
+    }
+
+    .patreon-img {
+        width: 55%;
+    }
+
+}
+
+
+/* Tablet */
+@media (max-width: 880px) {
+
+    .vidprev {
+        width: 70%;
+    }
+    
+    .patreon-img {
+        width: 60%;
+    }
+
+}
+
+
+/* Phone */
+@media (max-width: 600px) {
+
+    .vidprev {
+        width: 100%;
+    }
+
+    .patreon-img {
+        width: 80%;
+    }
+
+}

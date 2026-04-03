@@ -1,0 +1,85 @@
+.vidprev {
+    width: 70%;
+}
+
+.modestwidth-full {
+    width: 70%;
+}
+
+.modestwidth-threequarters {
+    width: 55%;
+}
+
+.modestwidth-twothirds {
+    width: 46%;
+}
+
+.modestwidth-halfer {
+    width: 33%;
+}
+
+.immodestwidth-forty {
+    width: 40%;
+}
+
+
+/* ------------------------- Media Queries ------------------------- */
+
+
+/* Tablet */
+@media (max-width: 880px) {
+
+    .vidprev {
+        width: 80%;
+    }
+
+    .modestwidth-full {
+        width: 80%;
+    }
+
+    .modestwidth-threequarters {
+        width: 60%;
+    }
+
+    .modestwidth-twothirds {
+        width: 53%;
+    }
+
+    .modestwidth-halfer {
+        width: 38%;
+    }
+
+    .immodestwidth-forty {
+        width: 50%;
+    }
+
+}
+
+/* Phone */
+@media (max-width: 600px) {
+
+    .vidprev {
+        width: 100%;
+    }
+
+    .modestwidth-full {
+        width: 100%;
+    }
+
+    .modestwidth-threequarters {
+        width: 75%;
+    }
+
+    .modestwidth-twothirds {
+        width: 66%;
+    }
+
+    .modestwidth-halfer {
+        width: 45%;
+    }
+
+    .immodestwidth-forty {
+        width: 60%;
+    }
+
+}
